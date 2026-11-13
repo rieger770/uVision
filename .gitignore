@@ -1,2 +1,31 @@
 # LaTeX-Ordner der Projekte
 **/Latex/
+
+# Keil uVision Build-Ausgaben (enthalten Lizenzinfo, Name und lokale Benutzerpfade)
+**/Objects/
+**/Listings/
+*.build_log.htm
+*.dep
+*.lnp
+*.axf
+*.map
+*.o
+*.d
+*.crf
+*.htm
+*.hex
+*.bin
+*.lst
+*.sct
+
+# Benutzerspezifische uVision-Einstellungen (Fensterlayout, pro Windows-User)
+*.uvguix.*
+*.uvgui.*
+*.bak
+
+# Debugger-Logs
+JLinkLog.txt
+*.scvd
+
+# Datenblätter/Handbücher (urheberrechtlich geschützt, nicht weiterverbreiten)
+Literature/
